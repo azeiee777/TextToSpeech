@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TTS testing</string>
+    <string name="testing_text">హలో ప్రపంచం, మీరు ఎలా ఉన్నారు?</string>
+    <string name="button_text">మాట్లాడండి</string>
+</resources>

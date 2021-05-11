@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">टीटीएस परीक्षण</string>
+    <string name="testing_text">नमस्ते दुनिया, आप कैसे हैं?</string>
+    <string name="button_text">बोलना</string>
+</resources>

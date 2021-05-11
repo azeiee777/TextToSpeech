@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ટીટીએસ પરીક્ષણ</string>
+    <string name="testing_text">હેલો વર્લ્ડ, તમે કેમ છો?</string>
+    <string name="button_text">બોલો</string>
+</resources>

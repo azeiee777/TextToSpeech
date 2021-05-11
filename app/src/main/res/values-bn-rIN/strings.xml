@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"িটিএস টেস্টিং"</string>
+    <string name="testing_text">হ্যালো ওয়ার্ল্ড, কেমন আছেন?</string>
+    <string name="button_text">কথা বলুন</string>
+</resources>

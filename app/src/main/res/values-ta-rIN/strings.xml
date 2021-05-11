@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="testing_text">வணக்கம் உலகம், நீங்கள் எப்படி இருக்கிறீர்கள்?</string>
+    <string name="app_name">TTT சோதனை</string>
+    <string name="button_text">பேசு</string>
+</resources>
