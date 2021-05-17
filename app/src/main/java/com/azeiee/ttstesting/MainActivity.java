@@ -80,7 +80,11 @@ public class MainActivity extends AppCompatActivity {
                     int result = textToSpeech.setLanguage(Locale.getDefault());
                     if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                         Log.i("TextToSpeech", "Language Not Supported");
-                       // getDataForTTs();
+                        /**
+                        *we use this method to get missing data, suppose a language data is not available in device
+                        *but it is supported by TTS then this method will install the data for that language
+                        **/
+                        getDataForTTs();
                     }
 
                     textToSpeech.setOnUtteranceProgressListener(utteranceProgressListener);
