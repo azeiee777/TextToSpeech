@@ -54,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
     public void speek(View v) {
         speak();
     }
-
+    
+    //UtteranceProgressListener is used as a Listner for TTS, when TTS start or ends we can get notify by it.
     UtteranceProgressListener utteranceProgressListener = new UtteranceProgressListener() {
         @Override
         public void onStart(String utteranceId) {
