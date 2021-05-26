@@ -20,6 +20,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initViews();
+        Date currentTime = Calendar.getInstance().getTime();
+        Log.d("timetesting", "onCreate: " + currentTime);
         initialiseTTS();
+        Date currentTimee = Calendar.getInstance().getTime();
+        Log.d("timetesting", "onCreate: " + currentTimee);
     }
 
     private void getDataForTTs() {
@@ -52,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void speek(View v) {
+        Date currentTimeee = Calendar.getInstance().getTime();
+        Log.d("timetesting", "onCreate: " + currentTimeee);
         speak();
     }
     
